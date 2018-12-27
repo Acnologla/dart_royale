@@ -1,0 +1,9 @@
+name: dart_royale
+author: acnologla2121@gmail.com
+version: 1.0.0
+homepage: https://github.com/Acnologla/dart_royale/
+environment:
+ sdk: ">=2.0.0-dev.63.0 <3.0.0"
+description: An easy way to get data from the royale API. Documentation is available at https://github.com/Acnologla/dart_royale/
+dependencies:
+  http: ^0.12.0
