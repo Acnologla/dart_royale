@@ -60,4 +60,4 @@ var tourney = await Tournaments.get("tag");
 var tourneys = await Tournaments.search(joinable:1,open:1,full:0,preparation:1,thousand:1);
 ```
 
-You can found more examples in [Here](https://github.com/Acnologla/dart_royale/example)
+You can found more examples in [Here](https://github.com/Acnologla/dart_royale/tree/master/example)
