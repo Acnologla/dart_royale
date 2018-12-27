@@ -19,13 +19,12 @@ var clan = await Clans.get("9PJ82CRC");
 var claninfo = clan.fetch();
 //like Player you can pass an array of tags too
 var clansearch = await Clans.search(name:"back2future");
-// params to search  name:"",score:0,minMembers:0,maxMembers:50,locationId:0
+// params to search  name:"",score:0,minMembers:0,maxMembers:50,locationId:''
 // you can get locationId in https://github.com/RoyaleAPI/cr-api-data/blob/master/json/regions.json
 // you will get an array of clans, to get more info about the clan, like members you will ned to get him using tag returned
 // to get war information, week information, battles information and history information you will need to use .fetch() function example:
-//print(clansearch);
-//var clan2 = await Clans.get(clansearch[0]['tag']);
-//var clan2info = await clan2.fetch();
+var clan2 = await Clans.get(clansearch[0]['tag']);
+var clan2info = await clan2.fetch();
 
 //Get tops
 var Tops = royale.Top();
