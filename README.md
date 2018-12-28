@@ -30,6 +30,7 @@ var playersinfo = await players[0].fetch();
 
 <br>
 <h1> Clan Route </h1>
+
 ```dart
 // get a clan
 var Clans = royale.Clan();
