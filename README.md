@@ -1,7 +1,8 @@
 # dartRoyale
 
 An easy way to get data from the royale API. 
-Documentation is available at https://github.com/Acnologla/dart_royale/ 
+Documentation is available at https://docs.royaleapi.com/
+Pub: https://pub.dartlang.org/packages/dart_royale
 
 ## Usage
 
