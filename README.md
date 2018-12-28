@@ -9,7 +9,6 @@ Pub: https://pub.dartlang.org/packages/dart_royale
 dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tournament<br>
 To acess a route, you can use: Royale(key).route()
 
-## Examples
 <br>
 <h1> Player Route </h1>
 
