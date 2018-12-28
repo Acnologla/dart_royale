@@ -12,6 +12,7 @@ To acess a route, you can use: Royale(key).route()
 ## Examples
 <br>
 <h1> Player Router </h1>
+
 ```dart
 import "package:dart_royale/Royale.dart";
 // get a player
@@ -27,7 +28,9 @@ print(player[0].player);
 var playerinfo =  await player.fetch();
 var playersinfo = await players[0].fetch();
 ```
+
 <br>
+
 ```dart
 // get a clan
 var Clans = royale.Clan();
