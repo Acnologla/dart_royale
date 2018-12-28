@@ -1,13 +1,13 @@
 # dartRoyale
 
-An easy way to get data from the royale API. 
+An easy way to get data from the royale API. <br>
 Documentation is available at https://docs.royaleapi.com/<br>
 Pub: https://pub.dartlang.org/packages/dart_royale
 
 ## Usage
 
 dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tournament
-To acess a route, you can use: Royale.route(key)
+To acess a route, you can use: Royale(key).route()
 
 ## Examples
 
