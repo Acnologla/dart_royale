@@ -6,11 +6,12 @@ Pub: https://pub.dartlang.org/packages/dart_royale
 
 ## Usage
 
-dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tournament
+dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tournament<br>
 To acess a route, you can use: Royale(key).route()
 
 ## Examples
-
+<br>
+<h1> Player Router </h1>
 ```dart
 import "package:dart_royale/Royale.dart";
 // get a player
@@ -25,7 +26,9 @@ print(player[0].player);
 // You can get more information about player using fetch() function, it will returns Player battles, and Player Chests
 var playerinfo =  await player.fetch();
 var playersinfo = await players[0].fetch();
-
+```
+<br>
+```dart
 // get a clan
 var Clans = royale.Clan();
 var clan = await Clans.get("9PJ82CRC");
