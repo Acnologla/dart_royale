@@ -18,6 +18,9 @@ var Players = royale.Player();
 var player = await Players.get("8L9L9GL");
 //  you can pass an array of tags instead, and recieve array of responses
 var players = await Players.get(["LCQPVYVR","LCQPVYVR"]);
+print(player.player); // this return basic player information
+ if you have an array you can do:
+print(player[0].player);
 // You can get more information about player using fetch() function, it will returns Player battles, and Player Chests
 var playerinfo =  await player.fetch();
 var playersinfo = await players[0].fetch();
@@ -25,8 +28,10 @@ var playersinfo = await players[0].fetch();
 // get a clan
 var Clans = royale.Clan();
 var clan = await Clans.get("9PJ82CRC");
+print (clan.clan); //this return clan information and like player you can do:
+var clans = await Clans.get(["9PJ82CRC","9PJ82CRC"]);
+print(clan[0].clan);
 var claninfo = clan.fetch();
-//like Player you can pass an array of tags too
 var clansearch = await Clans.search(name:"back2future");
 // params to search  name:"",score:0,minMembers:0,maxMembers:50,locationId:0
 // you can get locationId in https://github.com/RoyaleAPI/cr-api-data/blob/master/json/regions.json
