@@ -19,7 +19,7 @@ var player = await Players.get("8L9L9GL");
 //  you can pass an array of tags instead, and recieve array of responses
 var players = await Players.get(["LCQPVYVR","LCQPVYVR"]);
 print(player.player); // this return basic player information
- if you have an array you can do:
+//if you have an array you can do:
 print(player[0].player);
 // You can get more information about player using fetch() function, it will returns Player battles, and Player Chests
 var playerinfo =  await player.fetch();
@@ -45,7 +45,7 @@ var Tops = royale.Top();
 var clantop = await Tops.get("clans");
 var playerstop = await Tops.get("players");
 var wartop = await Tops.get("war");
-// you can get top of a region by they location_key you can get this in https://github.com/RoyaleAPI/cr-api-data/blob/master/json/regions.json example
+// you can get top of a region by they location_key you can get this in https://github.com/RoyaleAPI/cr-api-data/blob/master/json/regions.json, example:
 var usclantop = await Tops.get("clans","us");
 
 //get Populars
