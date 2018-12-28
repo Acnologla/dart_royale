@@ -9,13 +9,16 @@ PUB: https://pub.dartlang.org/packages/dart_royale
 dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tournament<br>
 To acess a route, you can use: Royale(key).route()
 
+```dart
+import "package:dart_royale/Royale.dart";
+var royale = Royale(key);
+```
+
 <br>
 <h1> Player Router </h1>
 
 ```dart
-import "package:dart_royale/Royale.dart";
 // get a player
-var royale = Royale(key);
 var Players = royale.Player();
 var player = await Players.get("8L9L9GL");
 //  you can pass an array of tags instead, and recieve array of responses
