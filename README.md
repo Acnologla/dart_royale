@@ -11,7 +11,7 @@ To acess a route, you can use: Royale(key).route()
 
 ## Examples
 <br>
-<h1> Player Router </h1>
+<h1> Player Route </h1>
 
 ```dart
 import "package:dart_royale/Royale.dart";
@@ -30,7 +30,7 @@ var playersinfo = await players[0].fetch();
 ```
 
 <br>
-
+<h1> Clan Route </h1>
 ```dart
 // get a clan
 var Clans = royale.Clan();
@@ -46,7 +46,12 @@ var clansearch = await Clans.search(name:"back2future");
 // to get war information, week information, battles information and history information you will need to use .fetch() function example:
 var clan2 = await Clans.get(clansearch[0]['tag']);
 var clan2info = await clan2.fetch();
+```
 
+<br>
+<h1> Top route</h1>
+
+```dart
 //Get tops
 var Tops = royale.Top();
 var clantop = await Tops.get("clans");
@@ -54,14 +59,24 @@ var playerstop = await Tops.get("players");
 var wartop = await Tops.get("war");
 // you can get top of a region by they location_key you can get this in https://github.com/RoyaleAPI/cr-api-data/blob/master/json/regions.json, example:
 var usclantop = await Tops.get("clans","us");
+```
 
+<br>
+<h1> Popular route </h1>
+
+```dart
 //get Populars
 var Populars = royale.Popular();
 var popularClans = await Populars.get("clans");
 var popularPlayers = await Populars.get("players");
 var popularTournaments = await Populars.get("tournaments");
 var popularDecks = await Populars.get("decks");
+```
 
+<br>
+<h1> Tournament route </h1>
+
+```dart
 //get tournament
 var Tournaments = royale.Tournament();
 var tourney = await Tournaments.get("tag");
