@@ -7,11 +7,12 @@ PUB: https://pub.dartlang.org/packages/dart_royale
 ## Usage
 
 dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tournament<br>
-To acess a route, you can use: Royale(key).route()
+To acess a route, you can use: Royale(apiKey).route()<br>
+You can get a key [Here](https://docs.royaleapi.com/#/authentication)
 
 ```dart
 import "package:dart_royale/Royale.dart";
-var royale = Royale(key);
+var royale = Royale(apiKey);
 ```
 
 <br>
