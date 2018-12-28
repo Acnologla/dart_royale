@@ -2,7 +2,7 @@
 
 An easy way to get data from the royale API. <br>
 Documentation is available at https://docs.royaleapi.com/<br>
-Pub: https://pub.dartlang.org/packages/dart_royale
+PUB: https://pub.dartlang.org/packages/dart_royale
 
 ## Usage
 
@@ -10,7 +10,7 @@ dartRoyale comes with 5 routes you can use: Top, Clan, Player, Popular, Tourname
 To acess a route, you can use: Royale(key).route()
 
 <br>
-<h1> Player Route </h1>
+<h1> Player Router </h1>
 
 ```dart
 import "package:dart_royale/Royale.dart";
@@ -29,7 +29,7 @@ var playersinfo = await players[0].fetch();
 ```
 
 <br>
-<h1> Clan Route </h1>
+<h1> Clan Router </h1>
 
 ```dart
 // get a clan
@@ -49,7 +49,7 @@ var clan2info = await clan2.fetch();
 ```
 
 <br>
-<h1> Top route</h1>
+<h1> Top Router</h1>
 
 ```dart
 //Get tops
@@ -62,7 +62,7 @@ var usclantop = await Tops.get("clans","us");
 ```
 
 <br>
-<h1> Popular route </h1>
+<h1> Popular Router </h1>
 
 ```dart
 //get Populars
@@ -74,7 +74,7 @@ var popularDecks = await Populars.get("decks");
 ```
 
 <br>
-<h1> Tournament route </h1>
+<h1> Tournament Router </h1>
 
 ```dart
 //get tournament
